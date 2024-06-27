@@ -1,0 +1,5 @@
+#!/Users/sion/PycharmProjects/Security-Header-Checker/my-header-checker/bin/python3.12
+from proxy_db.cli import main
+
+if __name__ == "__main__":
+    main()

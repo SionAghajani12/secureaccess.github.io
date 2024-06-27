@@ -1,0 +1,2 @@
+[console_scripts]
+dirhunt = dirhunt.management:main
