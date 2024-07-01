@@ -83,7 +83,7 @@ def check_loosely_scoped_cookies(url):
 def index():
     return render_template('index.html')
 
-@app.route('/check', methods=['POST'])
+@app.route('/check', methods=['GET'])
 def check():
     url = request.form['domain']
     check_type = request.form['check_type']
